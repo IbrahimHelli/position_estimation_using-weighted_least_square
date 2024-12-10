@@ -22,7 +22,7 @@ for i = 1 : length(verici_konumlar)
     b = 5;
     gurultu = a + (b-a)*rand();
     prs(end+1) = sqrt((verici_konumlar(i, 1) - gercek_konum(1))^2 + ...
-        (verici_konumlar(i, 2) - gercek_konum(2))^2) + 0;
+        (verici_konumlar(i, 2) - gercek_konum(2))^2) + gurultu;
 end
 
 %% İlk Konum Tahminini Belirle:
